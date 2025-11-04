@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="S67kW1bNY56arPjQm3Uf">
+    <mxGraphModel dx="1216" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-1" value="&lt;div style=&quot;line-height: 80%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 80%;&quot;&gt;Hệ thống Blog cá nhân&lt;/h1&gt;&lt;h3 style=&quot;line-height: 80%;&quot; data-end=&quot;247&quot; data-start=&quot;201&quot;&gt;&lt;strong style=&quot;line-height: 80%;&quot; data-end=&quot;247&quot; data-start=&quot;205&quot;&gt;a. Tầng giao diện (Presentation Layer)&lt;/strong&gt;&lt;/h3&gt;&lt;p data-end=&quot;364&quot; data-start=&quot;248&quot;&gt;Là nơi người dùng trực tiếp thao tác với hệ thống thông qua ứng dụng Web hoặc Mobile. Các giao diện chính bao gồm&lt;/p&gt;&lt;ul data-end=&quot;828&quot; data-start=&quot;365&quot;&gt;&lt;li data-end=&quot;458&quot; data-start=&quot;365&quot;&gt;&lt;p data-end=&quot;458&quot; data-start=&quot;367&quot;&gt;&lt;strong data-end=&quot;390&quot; data-start=&quot;367&quot;&gt;Giao diện bài viết:&lt;/strong&gt; cho phép người dùng tạo, chỉnh sửa, xóa và xem chi tiết bài viết&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;574&quot; data-start=&quot;459&quot;&gt;&lt;p data-end=&quot;574&quot; data-start=&quot;461&quot;&gt;&lt;strong data-end=&quot;485&quot; data-start=&quot;461&quot;&gt;Giao diện bình luận:&lt;/strong&gt; hiển thị danh sách bình luận dưới mỗi bài viết, cho phép thêm, sửa hoặc xóa bình luận.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;698&quot; data-start=&quot;575&quot;&gt;&lt;p data-end=&quot;698&quot; data-start=&quot;577&quot;&gt;&lt;strong data-end=&quot;602&quot; data-start=&quot;577&quot;&gt;Giao diện người dùng:&lt;/strong&gt; hỗ trợ đăng ký, đăng nhập, quản lý thông tin cá nhân và phân quyền (admin/người dùng thường).&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;828&quot; data-start=&quot;699&quot;&gt;&lt;p data-end=&quot;828&quot; data-start=&quot;701&quot;&gt;&lt;strong data-end=&quot;720&quot; data-start=&quot;701&quot;&gt;Trang chủ blog:&lt;/strong&gt; hiển thị danh sách các bài viết mới nhất, nổi bật và cho phép tìm kiếm bài viết theo chủ đề hoặc tác giả&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3 style=&quot;line-height: 80%;&quot; data-end=&quot;878&quot; data-start=&quot;830&quot;&gt;&lt;strong style=&quot;line-height: 80%;&quot; data-end=&quot;878&quot; data-start=&quot;834&quot;&gt;b. Tầng nghiệp vụ (Business Logic Layer)&lt;/strong&gt;&lt;/h3&gt;&lt;p data-end=&quot;975&quot; data-start=&quot;879&quot;&gt;Chịu trách nhiệm xử lý toàn bộ logic nghiệp vụ của hệ thống Blog. Các chức năng chính bao gồm:&lt;/p&gt;&lt;ul data-end=&quot;1592&quot; data-start=&quot;976&quot;&gt;&lt;li data-end=&quot;1192&quot; data-start=&quot;976&quot;&gt;&lt;p data-end=&quot;1192&quot; data-start=&quot;978&quot;&gt;&lt;strong data-end=&quot;999&quot; data-start=&quot;978&quot;&gt;Quản lý bài viết:&lt;/strong&gt; kiểm tra hợp lệ nội dung khi tạo hoặc chỉnh sửa bài viết, gắn thông tin người viết, thời gian đăng và trạng thái; xử lý lưu, cập nhật, hoặc xóa bài viết và đồng bộ dữ liệu lên cơ sở dữ liệu.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1396&quot; data-start=&quot;1193&quot;&gt;&lt;p data-end=&quot;1396&quot; data-start=&quot;1195&quot;&gt;&lt;strong data-end=&quot;1217&quot; data-start=&quot;1195&quot;&gt;Quản lý bình luận:&lt;/strong&gt; kiểm tra quyền người dùng trước khi thêm hoặc chỉnh sửa bình luận, tự động liên kết bình luận với bài viết tương ứng, xử lý việc xóa bình luận (người đăng hoặc admin có quyền).&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1592&quot; data-start=&quot;1397&quot;&gt;&lt;p data-end=&quot;1592&quot; data-start=&quot;1399&quot;&gt;&lt;strong data-end=&quot;1422&quot; data-start=&quot;1399&quot;&gt;Quản lý người dùng:&lt;/strong&gt; xác thực tài khoản đăng nhập, mã hóa mật khẩu trước khi lưu trữ, phân quyền theo vai trò (admin, author, user), xử lý đăng ký, đăng xuất và cập nhật thông tin cá nhân.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3 style=&quot;line-height: 80%;&quot; data-end=&quot;1637&quot; data-start=&quot;1594&quot;&gt;&lt;strong style=&quot;line-height: 80%;&quot; data-end=&quot;1637&quot; data-start=&quot;1598&quot;&gt;c. Tầng dữ liệu (Data Access Layer)&lt;/strong&gt;&lt;/h3&gt;&lt;p data-end=&quot;1776&quot; data-start=&quot;1638&quot;&gt;Chịu trách nhiệm lưu trữ, truy xuất và cập nhật dữ liệu trong cơ sở dữ liệu (MySQL, PostgreSQL, MongoDB, …). Các bảng dữ liệu chính gồm:&lt;/p&gt;&lt;ul data-end=&quot;2118&quot; data-start=&quot;1777&quot;&gt;&lt;li data-end=&quot;1892&quot; data-start=&quot;1777&quot;&gt;&lt;p data-end=&quot;1892&quot; data-start=&quot;1779&quot;&gt;&lt;strong data-end=&quot;1806&quot; data-start=&quot;1779&quot;&gt;Bảng Người dùng (User):&lt;/strong&gt; chứa thông tin tài khoản như ID, tên đăng nhập, mật khẩu, email, vai trò, ngày tạo.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2003&quot; data-start=&quot;1893&quot;&gt;&lt;p data-end=&quot;2003&quot; data-start=&quot;1895&quot;&gt;&lt;strong data-end=&quot;1920&quot; data-start=&quot;1895&quot;&gt;Bảng Bài viết (Post):&lt;/strong&gt; lưu mã bài viết, tiêu đề, nội dung, tác giả, ngày đăng, trạng thái, số lượt xem.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2118&quot; data-start=&quot;2004&quot;&gt;&lt;p data-end=&quot;2118&quot; data-start=&quot;2006&quot;&gt;&lt;strong data-end=&quot;2035&quot; data-start=&quot;2006&quot;&gt;Bảng Bình luận (Comment):&lt;/strong&gt; lưu ID bình luận, nội dung, người bình luận, thời gian, và ID bài viết liên kết.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="480" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-2" value="AUTHENTICATION" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="330" width="410" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-3" value="Đăng ký" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-4" value="Đăng nhập" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-5" value="POST" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="570" width="410" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-6" value="thêm bài viết" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-7" value="chỉnh sửa bài viết" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-8" value="xóa bài viết" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-9" value="xem chi tiết bài viết" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-10" value="xem danh sách bình luận" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-11" value="chỉnh sửa bình luận" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="860" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-12" value="xóa bình luận" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="860" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYOgNFlC_vz9PnJJVHra-13" value="tìm kiếm bài viết" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="940" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,61 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="Kck4Q8JgYf89s0uKWR1C">
+    <mxGraphModel dx="1216" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="DPh0ciCyAJv5pQvzFuyR-1" target="DPh0ciCyAJv5pQvzFuyR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-1" value="OrderController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-2" value="-service:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DPh0ciCyAJv5pQvzFuyR-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DPh0ciCyAJv5pQvzFuyR-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-4" value="-createOrder()&lt;div&gt;-getOrderById():&lt;/div&gt;&lt;div&gt;getAllOrders();&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DPh0ciCyAJv5pQvzFuyR-1">
+          <mxGeometry y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-5" value="OrderRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="280" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-6" value="-orderList:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DPh0ciCyAJv5pQvzFuyR-5">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DPh0ciCyAJv5pQvzFuyR-5">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-8" value="-saveOrder()&lt;div&gt;-findOrderById()&lt;/div&gt;&lt;div&gt;-FindAllOrders()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DPh0ciCyAJv5pQvzFuyR-5">
+          <mxGeometry y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="DPh0ciCyAJv5pQvzFuyR-9" target="DPh0ciCyAJv5pQvzFuyR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-9" value="OrderService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-10" value="-repository" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DPh0ciCyAJv5pQvzFuyR-9">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DPh0ciCyAJv5pQvzFuyR-9">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-12" value="-createOrder()&lt;div&gt;-getOrderById():&lt;/div&gt;&lt;div&gt;getAllOrders();&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DPh0ciCyAJv5pQvzFuyR-9">
+          <mxGeometry y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-16" value="&lt;table&gt;&#xa;&lt;thead&gt;&#xa;&lt;tr&gt;&#xa;&lt;th align=&quot;left&quot;&gt;Method&lt;/th&gt;&#xa;&lt;th align=&quot;left&quot;&gt;Mô tả&lt;/th&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/thead&gt;&#xa;&lt;tbody&gt;&#xa;&lt;tr&gt;&#xa;&lt;td align=&quot;left&quot;&gt;&lt;code&gt;createOrder()&lt;/code&gt;&lt;/td&gt;&#xa;&lt;td align=&quot;left&quot;&gt;Nhận yêu cầu tạo đơn hàng từ người dùng, gọi &lt;code&gt;OrderService.createOrder()&lt;/code&gt; để xử lý nghiệp vụ.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td align=&quot;left&quot;&gt;&lt;code&gt;getOrderById()&lt;/code&gt;&lt;/td&gt;&#xa;&lt;td align=&quot;left&quot;&gt;Nhận ID từ người dùng, gọi &lt;code&gt;OrderService.getOrderById()&lt;/code&gt; để lấy thông tin chi tiết của đơn hàng.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td align=&quot;left&quot;&gt;&lt;code&gt;getAllOrders()&lt;/code&gt;&lt;/td&gt;&#xa;&lt;td align=&quot;left&quot;&gt;Gọi &lt;code&gt;OrderService.getAllOrders()&lt;/code&gt; để lấy toàn bộ danh sách đơn hàng và trả về cho giao diện.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/tbody&gt;&#xa;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="120" width="280" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-17" value="&lt;table&gt;&#xa;&lt;thead&gt;&#xa;&lt;tr&gt;&#xa;&lt;th align=&quot;left&quot;&gt;Method&lt;/th&gt;&#xa;&lt;th align=&quot;left&quot;&gt;Mô tả&lt;/th&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/thead&gt;&#xa;&lt;tbody&gt;&#xa;&lt;tr&gt;&#xa;&lt;td align=&quot;left&quot;&gt;&lt;code&gt;createOrder()&lt;/code&gt;&lt;/td&gt;&#xa;&lt;td align=&quot;left&quot;&gt;Xử lý logic tạo đơn hàng: tính tổng tiền, kiểm tra tồn kho, sau đó gọi &lt;code&gt;repository.saveOrder()&lt;/code&gt; để lưu.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td align=&quot;left&quot;&gt;&lt;code&gt;getOrderById()&lt;/code&gt;&lt;/td&gt;&#xa;&lt;td align=&quot;left&quot;&gt;Gọi &lt;code&gt;repository.findOrderById()&lt;/code&gt; để lấy đơn hàng, kiểm tra điều kiện hợp lệ (nếu cần).&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td align=&quot;left&quot;&gt;&lt;code&gt;getAllOrders()&lt;/code&gt;&lt;/td&gt;&#xa;&lt;td align=&quot;left&quot;&gt;Gọi &lt;code&gt;repository.findAllOrders()&lt;/code&gt; để lấy danh sách tất cả đơn hàng đang lưu trữ.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/tbody&gt;&#xa;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="190" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="DPh0ciCyAJv5pQvzFuyR-18" value="&lt;table&gt;&#xa;&lt;thead&gt;&#xa;&lt;tr&gt;&#xa;&lt;th align=&quot;left&quot;&gt;Method&lt;/th&gt;&#xa;&lt;th align=&quot;left&quot;&gt;Mô tả&lt;/th&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/thead&gt;&#xa;&lt;tbody&gt;&#xa;&lt;tr&gt;&#xa;&lt;td align=&quot;left&quot;&gt;&lt;code&gt;saveOrder()&lt;/code&gt;&lt;/td&gt;&#xa;&lt;td align=&quot;left&quot;&gt;Lưu đơn hàng mới vào danh sách &lt;code&gt;orderList&lt;/code&gt; (hoặc database thực tế).&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td align=&quot;left&quot;&gt;&lt;code&gt;findOrderById()&lt;/code&gt;&lt;/td&gt;&#xa;&lt;td align=&quot;left&quot;&gt;Tìm và trả về đơn hàng có ID tương ứng trong &lt;code&gt;orderList&lt;/code&gt;.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td align=&quot;left&quot;&gt;&lt;code&gt;findAllOrders()&lt;/code&gt;&lt;/td&gt;&#xa;&lt;td align=&quot;left&quot;&gt;Trả về toàn bộ danh sách đơn hàng hiện có.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/tbody&gt;&#xa;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="130" width="230" height="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

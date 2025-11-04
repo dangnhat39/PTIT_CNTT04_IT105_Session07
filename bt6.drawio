@@ -1,0 +1,110 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="no-V7AkA44SXVgExd-fd">
+    <mxGraphModel dx="1871" dy="1392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SVKBBxBeamng-CHTNEF9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SVKBBxBeamng-CHTNEF9-2" target="SVKBBxBeamng-CHTNEF9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-2" value="Giao diện" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="SVKBBxBeamng-CHTNEF9-4" target="SVKBBxBeamng-CHTNEF9-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="390" />
+              <mxPoint x="410" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-4" value="Tầng nghiệp vụ, logic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-5" value="Truy vấn dữ liệu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-6" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="435" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.694;entryDx=0;entryDy=0;exitX=0.015;exitY=0.701;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="SVKBBxBeamng-CHTNEF9-4" target="SVKBBxBeamng-CHTNEF9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="280" as="sourcePoint" />
+            <mxPoint x="360" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.636;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.625;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SVKBBxBeamng-CHTNEF9-5" target="SVKBBxBeamng-CHTNEF9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="350" as="sourcePoint" />
+            <mxPoint x="490" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="441" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="SVKBBxBeamng-CHTNEF9-5" target="SVKBBxBeamng-CHTNEF9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.007;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0;exitY=0;exitDx=0;exitDy=90;exitPerimeter=0;" edge="1" parent="1" source="SVKBBxBeamng-CHTNEF9-6" target="SVKBBxBeamng-CHTNEF9-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="500" as="sourcePoint" />
+            <mxPoint x="670" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="523" />
+              <mxPoint x="555" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-11" value="request" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-12" value="response" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-13" value="request" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-14" value="request" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="510" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-15" value="response" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-16" value="response" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-17" value="VNPay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="670" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="630" />
+              <mxPoint x="670" y="630" />
+            </Array>
+            <mxPoint x="670" y="560" as="sourcePoint" />
+            <mxPoint x="670" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="655" as="sourcePoint" />
+            <mxPoint x="700" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-21" value="response" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="700" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-22" value="request" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="610" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SVKBBxBeamng-CHTNEF9-23" value="&lt;div style=&quot;line-height: 20%;&quot;&gt;&lt;h4 data-end=&quot;267&quot; data-start=&quot;225&quot;&gt;&lt;strong data-end=&quot;267&quot; data-start=&quot;230&quot;&gt;1. Giao diện (Presentation Layer)&lt;/strong&gt;&lt;/h4&gt;&lt;ul data-end=&quot;484&quot; data-start=&quot;268&quot;&gt;&lt;li data-end=&quot;309&quot; data-start=&quot;268&quot;&gt;&lt;p data-end=&quot;309&quot; data-start=&quot;270&quot;&gt;Là nơi người dùng thao tác (web/app).&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;393&quot; data-start=&quot;310&quot;&gt;&lt;p data-end=&quot;393&quot; data-start=&quot;312&quot;&gt;Gửi &lt;strong data-end=&quot;327&quot; data-start=&quot;316&quot;&gt;request&lt;/strong&gt; (đặt hàng, thanh toán, kiểm tra sản phẩm) → &lt;strong data-end=&quot;390&quot; data-start=&quot;372&quot;&gt;Tầng nghiệp vụ&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;484&quot; data-start=&quot;394&quot;&gt;&lt;p data-end=&quot;484&quot; data-start=&quot;396&quot;&gt;Nhận &lt;strong data-end=&quot;413&quot; data-start=&quot;401&quot;&gt;response&lt;/strong&gt; trả về (kết quả thanh toán, thông báo thành công, dữ liệu hiển thị).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4 data-end=&quot;547&quot; data-start=&quot;491&quot;&gt;&lt;strong data-end=&quot;547&quot; data-start=&quot;496&quot;&gt;2. Tầng nghiệp vụ, logic (Business Logic Layer)&lt;/strong&gt;&lt;/h4&gt;&lt;ul data-end=&quot;999&quot; data-start=&quot;548&quot;&gt;&lt;li data-end=&quot;581&quot; data-start=&quot;548&quot;&gt;&lt;p data-end=&quot;581&quot; data-start=&quot;550&quot;&gt;Trung tâm xử lý của hệ thống.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;950&quot; data-start=&quot;582&quot;&gt;&lt;p data-end=&quot;601&quot; data-start=&quot;584&quot;&gt;Chịu trách nhiệm:&lt;/p&gt;&lt;ul data-end=&quot;950&quot; data-start=&quot;604&quot;&gt;&lt;li data-end=&quot;634&quot; data-start=&quot;604&quot;&gt;&lt;p data-end=&quot;634&quot; data-start=&quot;606&quot;&gt;Nhận request từ giao diện.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;716&quot; data-start=&quot;637&quot;&gt;&lt;p data-end=&quot;716&quot; data-start=&quot;639&quot;&gt;Xử lý logic nghiệp vụ: tạo đơn hàng, kiểm tra tồn kho, xác nhận thanh toán.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;795&quot; data-start=&quot;719&quot;&gt;&lt;p data-end=&quot;795&quot; data-start=&quot;721&quot;&gt;Gửi yêu cầu xuống &lt;strong data-end=&quot;764&quot; data-start=&quot;739&quot;&gt;Tầng truy vấn dữ liệu&lt;/strong&gt; để lưu trữ hoặc lấy dữ liệu.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;847&quot; data-start=&quot;798&quot;&gt;&lt;p data-end=&quot;847&quot; data-start=&quot;800&quot;&gt;Kết nối &lt;strong data-end=&quot;817&quot; data-start=&quot;808&quot;&gt;VNPay&lt;/strong&gt; để xử lý thanh toán online.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;950&quot; data-start=&quot;850&quot;&gt;&lt;p data-end=&quot;950&quot; data-start=&quot;852&quot;&gt;Sau khi thanh toán thành công, gửi thông tin sang &lt;strong data-end=&quot;910&quot; data-start=&quot;902&quot;&gt;SMTP&lt;/strong&gt; để gửi email xác nhận cho khách hàng.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-end=&quot;999&quot; data-start=&quot;951&quot;&gt;&lt;p data-end=&quot;999&quot; data-start=&quot;953&quot;&gt;Trả &lt;strong data-end=&quot;969&quot; data-start=&quot;957&quot;&gt;response&lt;/strong&gt; kết quả về lại cho giao diện.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4 data-end=&quot;1059&quot; data-start=&quot;1006&quot;&gt;&lt;strong data-end=&quot;1059&quot; data-start=&quot;1011&quot;&gt;3. Tầng truy vấn dữ liệu (Data Access Layer)&lt;/strong&gt;&lt;/h4&gt;&lt;ul data-end=&quot;1358&quot; data-start=&quot;1060&quot;&gt;&lt;li data-end=&quot;1123&quot; data-start=&quot;1060&quot;&gt;&lt;p data-end=&quot;1123&quot; data-start=&quot;1062&quot;&gt;Chịu trách nhiệm giao tiếp trực tiếp với &lt;strong data-end=&quot;1120&quot; data-start=&quot;1103&quot;&gt;Database (DB)&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1311&quot; data-start=&quot;1124&quot;&gt;&lt;p data-end=&quot;1149&quot; data-start=&quot;1126&quot;&gt;Thực hiện các thao tác:&lt;/p&gt;&lt;ul data-end=&quot;1311&quot; data-start=&quot;1152&quot;&gt;&lt;li data-end=&quot;1234&quot; data-start=&quot;1152&quot;&gt;&lt;p data-end=&quot;1234&quot; data-start=&quot;1154&quot;&gt;&lt;code data-end=&quot;1162&quot; data-start=&quot;1154&quot;&gt;INSERT&lt;/code&gt;, &lt;code data-end=&quot;1172&quot; data-start=&quot;1164&quot;&gt;UPDATE&lt;/code&gt;, &lt;code data-end=&quot;1182&quot; data-start=&quot;1174&quot;&gt;DELETE&lt;/code&gt;, &lt;code data-end=&quot;1192&quot; data-start=&quot;1184&quot;&gt;SELECT&lt;/code&gt; dữ liệu sản phẩm, đơn hàng, thanh toán.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1311&quot; data-start=&quot;1237&quot;&gt;&lt;p data-end=&quot;1311&quot; data-start=&quot;1239&quot;&gt;Đảm bảo tính toàn vẹn dữ liệu sau khi VNPay trả về kết quả thanh toán.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-end=&quot;1358&quot; data-start=&quot;1312&quot;&gt;&lt;p data-end=&quot;1358&quot; data-start=&quot;1314&quot;&gt;Gửi &lt;strong data-end=&quot;1330&quot; data-start=&quot;1318&quot;&gt;response&lt;/strong&gt; dữ liệu cho tầng nghiệp vụ.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4 data-end=&quot;1401&quot; data-start=&quot;1365&quot;&gt;&lt;strong data-end=&quot;1401&quot; data-start=&quot;1370&quot;&gt;4. Cơ sở dữ liệu (Database)&lt;/strong&gt;&lt;/h4&gt;&lt;ul data-end=&quot;1663&quot; data-start=&quot;1402&quot;&gt;&lt;li data-end=&quot;1553&quot; data-start=&quot;1402&quot;&gt;&lt;p data-end=&quot;1443&quot; data-start=&quot;1404&quot;&gt;Lưu trữ toàn bộ thông tin của hệ thống:&lt;/p&gt;&lt;ul data-end=&quot;1553&quot; data-start=&quot;1446&quot;&gt;&lt;li data-end=&quot;1470&quot; data-start=&quot;1446&quot;&gt;&lt;p data-end=&quot;1470&quot; data-start=&quot;1448&quot;&gt;&lt;strong data-end=&quot;1459&quot; data-start=&quot;1448&quot;&gt;Product&lt;/strong&gt; (Sản phẩm)&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1495&quot; data-start=&quot;1473&quot;&gt;&lt;p data-end=&quot;1495&quot; data-start=&quot;1475&quot;&gt;&lt;strong data-end=&quot;1484&quot; data-start=&quot;1475&quot;&gt;Order&lt;/strong&gt; (Đơn hàng)&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1523&quot; data-start=&quot;1498&quot;&gt;&lt;p data-end=&quot;1523&quot; data-start=&quot;1500&quot;&gt;&lt;strong data-end=&quot;1511&quot; data-start=&quot;1500&quot;&gt;Payment&lt;/strong&gt; (Giao dịch)&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1553&quot; data-start=&quot;1526&quot;&gt;&lt;p data-end=&quot;1553&quot; data-start=&quot;1528&quot;&gt;&lt;strong data-end=&quot;1540&quot; data-start=&quot;1528&quot;&gt;Customer&lt;/strong&gt; (Khách hàng)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-end=&quot;1663&quot; data-start=&quot;1554&quot;&gt;&lt;p data-end=&quot;1663&quot; data-start=&quot;1556&quot;&gt;Là nơi trung gian mà cả tầng logic và dịch vụ ngoài (VNPay, SMTP) có thể tương tác gián tiếp thông qua API.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4 data-end=&quot;1712&quot; data-start=&quot;1670&quot;&gt;&lt;strong data-end=&quot;1712&quot; data-start=&quot;1675&quot;&gt;5. VNPay (Dịch vụ tích hợp ngoài)&lt;/strong&gt;&lt;/h4&gt;&lt;ul data-end=&quot;1946&quot; data-start=&quot;1713&quot;&gt;&lt;li data-end=&quot;1749&quot; data-start=&quot;1713&quot;&gt;&lt;p data-end=&quot;1749&quot; data-start=&quot;1715&quot;&gt;Xử lý &lt;strong data-end=&quot;1746&quot; data-start=&quot;1721&quot;&gt;thanh toán trực tuyến&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1946&quot; data-start=&quot;1750&quot;&gt;&lt;p data-end=&quot;1820&quot; data-start=&quot;1752&quot;&gt;Khi tầng logic gọi API VNPay, hệ thống VNPay sẽ phản hồi trạng thái:&lt;/p&gt;&lt;ul data-end=&quot;1946&quot; data-start=&quot;1823&quot;&gt;&lt;li data-end=&quot;1884&quot; data-start=&quot;1823&quot;&gt;&lt;p data-end=&quot;1884&quot; data-start=&quot;1825&quot;&gt;Thanh toán thành công → cập nhật DB và kích hoạt gửi email.&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1946&quot; data-start=&quot;1887&quot;&gt;&lt;p data-end=&quot;1946&quot; data-start=&quot;1889&quot;&gt;Thanh toán thất bại → gửi phản hồi lỗi về tầng giao diện.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4 data-end=&quot;2006&quot; data-start=&quot;1953&quot;&gt;&lt;strong data-end=&quot;2006&quot; data-start=&quot;1958&quot;&gt;6. SMTP (dịch vụ gửi email – thêm vào sơ đồ)&lt;/strong&gt;&lt;/h4&gt;&lt;ul data-end=&quot;2199&quot; data-start=&quot;2151&quot;&gt;&lt;li data-end=&quot;2176&quot; data-start=&quot;2151&quot;&gt;&lt;p data-end=&quot;2176&quot; data-start=&quot;2153&quot;&gt;&lt;code data-end=&quot;2174&quot; data-start=&quot;2153&quot;&gt;request: sendMail()&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2199&quot; data-start=&quot;2177&quot;&gt;&lt;p data-end=&quot;2199&quot; data-start=&quot;2179&quot;&gt;&lt;code data-end=&quot;2197&quot; data-start=&quot;2179&quot;&gt;response: status&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p data-end=&quot;2296&quot; data-start=&quot;2201&quot;&gt;&lt;strong data-end=&quot;2209&quot; data-start=&quot;2201&quot;&gt;SMTP&lt;/strong&gt; dùng để gửi &lt;strong data-end=&quot;2249&quot; data-start=&quot;2222&quot;&gt;email xác nhận đơn hàng&lt;/strong&gt; cho khách hàng sau khi giao dịch thành công.&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="880" width="620" height="660" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

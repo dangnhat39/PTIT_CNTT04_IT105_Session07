@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="CWpyFeZeLk4-ULa_pU_t">
+    <mxGraphModel dx="1216" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-1" value="&lt;br&gt;&lt;table style=&quot;border: 1px solid rgb(0, 0, 0); border-collapse: collapse;&quot; border=&quot;1&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Use Case&amp;nbsp;&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Module phụ trách&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Tầng hệ thống&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Mô tả ngắn&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;1. Đăng ký tài khoản&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;User Management&lt;/td&gt;&lt;td&gt;Backend&lt;/td&gt;&lt;td&gt;Xử lý thông tin người dùng, lưu dữ liệu đăng ký vào DB.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;2. Đăng nhập&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Authentication&lt;/td&gt;&lt;td&gt;Backend&lt;/td&gt;&lt;td&gt;Xác thực tài khoản, tạo session/token, kiểm tra hợp lệ người dùng.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;3. Xem khóa học&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Course Management&lt;/td&gt;&lt;td&gt;Frontend + Backend&lt;/td&gt;&lt;td&gt;Frontend hiển thị danh sách khóa học; Backend truy xuất dữ liệu từ DB.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;4. Làm bài quiz&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Quiz Management&lt;/td&gt;&lt;td&gt;Frontend + Backend&lt;/td&gt;&lt;td&gt;Frontend hiển thị câu hỏi; Backend xử lý logic nộp bài và chấm điểm.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;5. Xem kết quả&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Result Management&lt;/td&gt;&lt;td&gt;Frontend + Backend&lt;/td&gt;&lt;td&gt;Backend lấy dữ liệu điểm từ DB, Frontend hiển thị kết quả cho người dùng.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="400" width="560" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VtlcYcSaMBY4wcXAgiBi-3" target="VtlcYcSaMBY4wcXAgiBi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-3" value="Giao diện&lt;div&gt;Course Management UI, Quiz UI, Result UI&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="VtlcYcSaMBY4wcXAgiBi-5" target="VtlcYcSaMBY4wcXAgiBi-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="830" />
+              <mxPoint x="360" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-5" value="Tầng nghiệp vụ, logic&lt;div&gt;User Management, Authentication, Course Management, Quiz Management, Result Management&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="640" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-6" value="Truy vấn dữ liệu&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="880" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-7" value="DB&lt;div&gt;User DB, Course DB, Quiz DB, Result DB&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="570" y="875" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.694;entryDx=0;entryDy=0;exitX=0.015;exitY=0.701;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="VtlcYcSaMBY4wcXAgiBi-5" target="VtlcYcSaMBY4wcXAgiBi-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="720" as="sourcePoint" />
+            <mxPoint x="310" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.636;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.625;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VtlcYcSaMBY4wcXAgiBi-6" target="VtlcYcSaMBY4wcXAgiBi-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="790" as="sourcePoint" />
+            <mxPoint x="440" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="391" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="VtlcYcSaMBY4wcXAgiBi-6" target="VtlcYcSaMBY4wcXAgiBi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.007;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0;exitY=0;exitDx=0;exitDy=90;exitPerimeter=0;" edge="1" parent="1" source="VtlcYcSaMBY4wcXAgiBi-7" target="VtlcYcSaMBY4wcXAgiBi-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="940" as="sourcePoint" />
+            <mxPoint x="620" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="963" />
+              <mxPoint x="505" y="963" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-12" value="request" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="200" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-13" value="response" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-14" value="request" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-15" value="request" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="460" y="910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-16" value="response" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="400" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VtlcYcSaMBY4wcXAgiBi-17" value="response" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="470" y="970" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
